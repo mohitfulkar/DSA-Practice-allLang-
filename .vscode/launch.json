@@ -2,6 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
       "type": "java",
@@ -11,6 +12,8 @@
       "projectName": "DSA-Practice-allLang-_4584acd6"
     },
     {
+=======
+>>>>>>> 411aad3947524754f232a390da1b8d7b375b32dc
       "type": "java",
       "name": "Factorial",
       "request": "launch",
@@ -18,7 +21,10 @@
       "projectName": "DSA-Practice-allLang-_4584acd6"
     },
     {
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 411aad3947524754f232a390da1b8d7b375b32dc
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
