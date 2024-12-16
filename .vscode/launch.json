@@ -2,6 +2,23 @@
   "version": "0.2.0",
   "configurations": [
     {
+<<<<<<< Updated upstream
+=======
+      "type": "java",
+      "name": "Palindrome",
+      "request": "launch",
+      "mainClass": "JAVA.Palindrome",
+      "projectName": "DSA-Practice-allLang-_4584acd6"
+    },
+    {
+      "type": "java",
+      "name": "Factorial",
+      "request": "launch",
+      "mainClass": "JAVA.Factorial",
+      "projectName": "DSA-Practice-allLang-_4584acd6"
+    },
+    {
+>>>>>>> Stashed changes
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
