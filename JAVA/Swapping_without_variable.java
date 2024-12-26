@@ -1,5 +1,4 @@
- package JAVA ;
-
+package JAVA ;
 public class Swapping_without_variable {
     public static void main(String[] args) {
       Swapping_without_variable.swapping();
