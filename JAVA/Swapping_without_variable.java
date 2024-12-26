@@ -1,5 +1,4 @@
 package JAVA ;
-
 public class Swapping_without_variable {
     public static void main(String[] args) {
       Swapping_without_variable.swapping();
@@ -13,5 +12,4 @@ public class Swapping_without_variable {
       a= b-a;
       System.out.println("After swapping a and b is :"+a + " and " + b);
     }
-    
 }
