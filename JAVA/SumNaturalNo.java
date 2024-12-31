@@ -26,7 +26,7 @@ public class SumNaturalNo {
         
         
         System.out.println("Sum of natural numbers from 1 to " + n + " is " + sum);
-    }
+       }
         
         sc.close();
     }
