@@ -5,6 +5,7 @@ public class FrequencyArray {
         int[] arr = {1,1,1,1,1,2, 2, 3 ,5,5,5,5,5};
               Frequency(arr);
     }
+    
     public static void Frequency(int[] arr) {
         int n =arr.length;
         int count =1;
