@@ -1,4 +1,5 @@
-public class ReplaceVowelwithAtTheRate {
+public class ReplaceVowelWithAtTheRate {
+  
    
         public static void main(String[] args) {
             
