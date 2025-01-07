@@ -14,3 +14,4 @@ public class BoundaryElementSum {
         System.out.print("Sum of Boundary element of given 2D arra: "+sum);
      }
  }
+ // Sum of Boundary element of given 2D arra: 40
