@@ -26,9 +26,13 @@ public class SecondLargest {
         }else if(arr[i]>smax && arr[i]!=max){
           smax=arr[i];
         }
-      }System.out.println("The second largest number is "+smax);
+      }
+      if (smax == Integer.MIN_VALUE) {
+        System.out.println("There is no valid second largest number.");
+      } else {
+        System.out.println("The second largest number is " + smax);
+      }
     }
-    
     public static void main(String[] args) {
       largestNum();
   }
