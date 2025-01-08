@@ -27,3 +27,10 @@ public class FrequencyOfCharacters {
     }
     }
     
+
+//  d occurs 2 times.
+// i occurs 4 times.
+// k occurs 2 times.
+// s occurs 4 times.
+// h occurs 3 times.
+// a occurs 3 times.
