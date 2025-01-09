@@ -1,9 +1,6 @@
 public class ReplaceVowelsWithatTheRate {
-    public static void main(String[] args) {
 
-        String str = "Diksha Chaurasia";
-        char[] str1 = {'a','e','i','o','u'};
-        
+    public static void replaceVowel(String str, char[] str1){
         char[] s = str.toCharArray();
         
         for(int i=0; i<s.length; i++) {
@@ -17,6 +14,15 @@ public class ReplaceVowelsWithatTheRate {
         String a = new String(s);
         System.out.println(a);
 
+
+    }
+    public static void main(String[] args) {
+
+        String str = "Diksha Chaurasia";
+        char[] str1 = {'a','e','i','o','u'};
+        replaceVowel(str, str1);
+
+        
     }
 
 }
