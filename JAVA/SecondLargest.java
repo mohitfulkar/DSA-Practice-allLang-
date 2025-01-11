@@ -17,8 +17,8 @@ public class SecondLargest {
       for(int i=0;i<n;i++){
         arr[i]=sc.nextInt();
       }
-      int max=arr[0];
-      int smax=arr[0];
+      int max = Integer.MIN_VALUE;
+        int smax = Integer.MIN_VALUE;
       for(int i=0;i<n;i++){
         if(arr[i]>max){
           smax= max;
@@ -26,9 +26,13 @@ public class SecondLargest {
         }else if(arr[i]>smax && arr[i]!=max){
           smax=arr[i];
         }
-      }System.out.println("The second largest number is "+smax);
+      }
+      if (smax == Integer.MIN_VALUE) {
+        System.out.println("There is no valid second largest number.");
+      } else {
+        System.out.println("The second largest number is " + smax);
+      }
     }
-    
     public static void main(String[] args) {
       largestNum();
   }
@@ -37,6 +41,6 @@ public class SecondLargest {
 /*
  Output : 
  Enter the Array Size : 4
-Enter the elements : 12 34 3 45 2
-The second largest number is 34
+Enter the elements : 12 11 1 2
+The second largest number is 11
  */
